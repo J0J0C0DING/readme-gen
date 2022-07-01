@@ -24,7 +24,7 @@ function generateMarkdown(data) {
   ## Usage
   ${data.usage}
 
-  !(Image Descriptor)[Image url] <---- Image Template for screenshots
+  ![Image Descriptor](Image url) <---- Image Template for screenshots
 
   ## License
   ![license](${renderLicenseSection(data.license)})
