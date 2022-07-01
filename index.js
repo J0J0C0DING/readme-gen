@@ -179,7 +179,7 @@ function writeToFile(fileName, data) {
 function init() {
   inquirer.prompt(questions).then(function (userInput) {
     console.log(userInput);
-    writeToFile(`README.md`, generateMarkdown(userInput));
+    writeToFile(`example_README.md`, generateMarkdown(userInput));
   });
 }
 
